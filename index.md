@@ -4,7 +4,8 @@ You can use the [editor on GitHub](https://github.com/threecia/page/edit/master/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## [LLVM study notes](llvm.md)
+### Pages
+ - [LLVM study notes](llvm.md)
 
 ### Markdown
 
