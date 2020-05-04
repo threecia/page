@@ -1,9 +1,9 @@
 # LLVM study notes
 ---
 ## bookmark
-[Clang 11 Documantation](https://clang.llvm.org/docs/AttributeReference.html)  
-[How-to-add an attribute](http://clang.llvm.org/docs/InternalsManual.html#how-to-add-an-attribute)  
-[[llvm-dev] Adding a function attribute with an argument](http://lists.llvm.org/pipermail/llvm-dev/2015-October/091122.html)  
+1. [Clang 11 Documantation](https://clang.llvm.org/docs/AttributeReference.html)  
+2. [How-to-add an attribute](http://clang.llvm.org/docs/InternalsManual.html#how-to-add-an-attribute)  
+3. [[llvm-dev] Adding a function attribute with an argument](http://lists.llvm.org/pipermail/llvm-dev/2015-October/091122.html)  
 
 ## attribute語法
 attribute本身以這種形式出現: `__attribute__((name1, name2(arg1, arg2, arg3), name3))`
