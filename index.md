@@ -5,13 +5,8 @@ You can use the [editor on GitHub](https://github.com/threecia/page/edit/master/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ## LLVM study notes
-### attribute語法
+### [attribute語法](attr.md)
 attribute本身以這種形式出現: `__attribute__((name1, name2(arg1, arg2, arg3), name3))`
-[reference](https://gcc.gnu.org/onlinedocs/gcc-4.9.1/gcc/Attribute-Syntax.html#Attribute-Syntax)
-### `__attribute__((noreturn))`
-noreturn 的用意是標記callee function 沒有return 動作, 這個attribute較常被compiler設計成警告noreturn之後的user code
-### `__attribute__(())`
-noreturn 的用意是標記callee function 沒有return 動作, 這個attribute較常被compiler設計成警告noreturn之後的user code
 
 ### Markdown
 
