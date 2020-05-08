@@ -1,9 +1,11 @@
 # LLVM study notes
 ---
-## Info
- - Parser的開始點 [clang::Parser::ParseTopLevelDecl(clang::OpaquePtr\<clang::DeclGroupRef> & Result, bool IsFirstDecl)](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\parse\parser.cpp), Line 682  
- - 處理GNU attribute (`__attribute((...))`): [clang::Parser::ParseGNUAttributes(clang::ParsedAttributes &amp; attrs, clang::SourceLocation * endLoc, clang::Parser::LateParsedAttrList * LateAttrs, clang::Declarator * D)](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\parse\parsedecl.cpp), Line 150  
+## Tip
+ - 萬用breakpoint [clang::Diagnostic::FormatDiagnostic](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\basic\diagnostic.cpp), Line 763
 
+## Info
+ - Parser的開始點 [clang::Parser::ParseTopLevelDecl](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\parse\parser.cpp), Line 682  
+ - `__attribute((...))` GNU attribute handler: [clang::Parser::ParseGNUAttributes](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\parse\parsedecl.cpp), Line 150  
 
 ## materials
 1. [Clang 11 Documantation](https://clang.llvm.org/docs/AttributeReference.html)  

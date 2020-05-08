@@ -6,6 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Pages
  - [LLVM study notes](llvm.md)
+ - [Office tips](office.md)
 
 ### Markdown
 
