@@ -1,7 +1,9 @@
 # LLVM study notes
 ---
 ## Tip
- - 萬用breakpoint [clang::Diagnostic::FormatDiagnostic](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\basic\diagnostic.cpp), Line 763
+萬用breakpoint  
+ - [clang::Diagnostic::FormatDiagnostic](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\basic\diagnostic.cpp), Line 763  
+ - [\'anonymous namespace\'::CodeGeneratorImpl::HandleTranslationUnit](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\codegen\modulebuilder.cpp), Line 255  
 
 ## Info
  - Parser的開始點 [clang::Parser::ParseTopLevelDecl](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\parse\parser.cpp), Line 682  

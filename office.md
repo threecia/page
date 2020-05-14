@@ -1,5 +1,9 @@
 # Office tips
 ---
+## 小技巧
+ - 在cmd中使用預設應用程式開啟檔案: `start "" <file>`, `start`後面的空字串是必須的 [參考來源](https://superuser.com/questions/144347/is-there-windows-equivalent-to-the-bashrc-file-in-linux)  
+ - TBD
+
 ## install & run sshd on Windows 10
 內網電腦需要彼此溝通; 但資安因素禁止安裝openssh  
  1. 對外只允許3389 (RDP), 對內不受限  
@@ -16,3 +20,11 @@
  5. 啟動sshd  `net start sshd`
 
 [reference](https://github.com/PowerShell/Win32-OpenSSH/wiki/Install-Win32-OpenSSH)
+
+## codebase
+ - 需求:  
+  1. 能夠支援Home/Office工作需要, 速度要能接受  
+
+ - 方法: 
+  1. 寫個script跑daily patch (create on PC2-> apply on PC1)
+  2. SVN folder 放在PC2上()
