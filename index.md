@@ -8,6 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
  - [LLVM study notes](llvm.md)
  - [Office tips](office.md)
  - [Visual Studio tips](vs.md)
+ - [PC購買](pc.md)
 
 ### Markdown
 
