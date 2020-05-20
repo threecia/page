@@ -3,7 +3,8 @@
 ## Tip
 萬用breakpoint  
  - [clang::Diagnostic::FormatDiagnostic](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\basic\diagnostic.cpp), Line 763  
- - [\'anonymous namespace\'::CodeGeneratorImpl::HandleTranslationUnit](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\codegen\modulebuilder.cpp), Line 255  
+ - [{}::CodeGeneratorImpl::HandleTranslationUnit](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\codegen\modulebuilder.cpp), Line 255  
+ - [clang::ASTContext::Allocate](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\include\clang\ast\astcontext.h), Line 673  
 
 ## Info
  - Parser的開始點 [clang::Parser::ParseTopLevelDecl](file:///d:\app_toolchain_unsp_hq\src\exeproject\qpcx\src\tools\clang\lib\parse\parser.cpp), Line 682  
@@ -22,5 +23,9 @@ attribute本身以這種形式出現: `__attribute__((name1, name2(arg1, arg2, a
 
 ## 新增language extension
  - `include/clang/Basic/LangOptions.def`新增
+
+## llc不支援LLVM-IR to C 的轉換
+從LLVM 3.1開始[拿掉了](https://releases.llvm.org/3.1/docs/ReleaseNotes.html)"LLVM_TARGETS_TO_BUILD=CBackend"的選項, 因此大家只能各顯神通產生source code  
+理由: The C backend has been removed. It had numerous problems, to the point of not being able to compile any nontrivial program.
 
 [reference](https://gcc.gnu.org/onlinedocs/gcc-4.9.1/gcc/Attribute-Syntax.html#Attribute-Syntax)
